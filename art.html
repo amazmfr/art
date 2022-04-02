@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Art Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/carousel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon/switchart.png" type="image/x-icon">
+
+
+    <!--
+        reference: https://azmind.com/bootstrap-carousel-multiple-items/
+    -->
+
+</head>
+
+<body>
+
+    <header>
+        <img src="icon/titleart.png" alt="Title"> 
+        <p>Illustrator and Graphic Designer</p>
+    </header>
+
+    <div id="link-container">
+        <div class="link">
+            <a href="index.html"><img class="link-icon" src="icon/home.png" alt="?"></a>
+            <div class="link-name"> home </div>
+        </div>
+        <div class="link">
+            <a href="info.html"><img class="link-icon" src="icon/info.png" alt="?"></a>
+            <div class="link-name"> about </div>
+        </div>
+        <div class="link">
+            <a href="contact.html"><img class="link-icon" src="icon/contact.png" alt="?"></a>
+            <div class="link-name"> contact </div>
+        </div>
+        <div class="link">
+            <a href="https://www.instagram.com/ae2ee/"><img class="link-icon" src="icon/ig.png" alt="?"></a>
+            <div class="link-name"> instagram </div>
+        </div>
+    </div>
+
+    <div id="carousel">    
+        <div class="top-content">
+            <div class="container-fluid">
+                <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                            <div class="container">
+                                <img src="art/art1.png" class="image img-fluid mx-auto d-block" alt="img1">
+                                <div class="middle">
+                                    <div class="text">Portrait of Mitski</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="container">
+                                <img src="art/art2.png" class="image img-fluid mx-auto d-block" alt="img2">
+                                <div class="middle">
+                                    <div class="text">Cherub and Moon</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="container">
+                                <img src="art/art3.png" class="image img-fluid mx-auto d-block" alt="img3">
+                                <div class="middle">
+                                    <div class="text">Portrait of Yoshiko Sai</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="container">
+                                <img src="art/art4.png" class="image img-fluid mx-auto d-block" alt="img4">
+                                <div class="middle">
+                                    <div class="text">Portrait of Doja Cat</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="container">
+                                <img src="art/art5.png" class="image img-fluid mx-auto d-block" alt="img5">
+                                <div class="middle">
+                                    <div class="text">Natasha Lyonne in Russian Doll</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="container">
+                                <img src="art/art6.png" class="image img-fluid mx-auto d-block" alt="img6">
+                                <div class="middle">
+                                    <div class="text">Colourful portrait</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="container">
+                                <img src="art/art7.png" class="image img-fluid mx-auto d-block" alt="img7">
+                                <div class="middle">
+                                    <div class="text">Portrait of Fernanda Ly</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="container">
+                                <img src="art/art8.png" class="image img-fluid mx-auto d-block" alt="img8">
+                                <div class="middle">
+                                    <div class="text">Sugar Beach, Toronto</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Javascript -->
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
